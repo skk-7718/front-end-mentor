@@ -1,0 +1,106 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: hsl(225, 100%, 98%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 180px;
+    height: 290px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 10px 4px 20px 9px rgba(0, 0, 0, 0.25);
+    background-color: #fff
+}
+
+.illustration-hero {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.h1 {
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.para {
+    font-size: 9px;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 12px;
+}
+
+.plan {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.music-icon {
+    max-width: 70%;
+    max-height: 70%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 6px;
+}
+
+.text .annual-plan {
+    font-size: 10px;
+}
+
+.text .price {
+    font-size: 8px;
+}
+
+.change p {
+    color: #382AE1;
+    font-weight: bold;
+    font-size: 8px;
+    text-decoration: underline;
+}
+
+.payment button {
+    width: 80%;
+    height: 26px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 3px 0px 15px 12px rgba(56, 42, 225, 0.13);
+    color: #fff;
+    background-color: #382AE1;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 16;
+}
+
+.cancel-order p {
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
